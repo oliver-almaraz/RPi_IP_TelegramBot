@@ -9,7 +9,7 @@ Install dependencies:
     - `echo 'PATH="$HOME/.local/bin:$PATH"' >> ~/.profile`
     - `. ~/.profile`
   - `sudo pip install telegram_send`
-  - `telegram-send --configure` (you will need to create a bot using Telegram's BotFather interface and inser bot's token)
+  - `telegram-send --configure` (you will need to create a bot using Telegram's BotFather interface and insert bot's token)
   
   - Only for Arch based distributions (like Manjaro) you need to install cronie:
     - `sudo pacman -Syyuu cronie`
