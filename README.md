@@ -3,7 +3,7 @@ Script that runs on startup to send device's IP to a Telegram bot. Usefull for h
 
 Download and extract both scripts in any location (both scripts must be in the same directory).
 Install dependencies:
-  - `sudo apt install netcat` (for arch based distros: `sudo pacman -Syyuu gnu-netcat`
+  - `sudo apt install netcat` (for arch based distros: `sudo pacman -Syyuu gnu-netcat`)
   - Only if pip is not installed: (verify with `pip --version`)
     - `apt install python-pip`
     - `echo 'PATH="$HOME/.local/bin:$PATH"' >> ~/.profile`
