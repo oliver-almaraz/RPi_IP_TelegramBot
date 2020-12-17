@@ -11,5 +11,5 @@ import telegram_send
 # . ~/.profile
 
 host_name = socket.gethostname()
-IP_addres = socket.gethostbyname(h_name)
+IP_addres = socket.gethostbyname(host_name)
 telegram_send.send(messages=[f"IP adress for '{host_name}' is:\n{IP_addres}"])
