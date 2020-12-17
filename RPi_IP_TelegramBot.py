@@ -1,8 +1,9 @@
 import socket
 import telegram_send
 
-## Dependencies:
+## Telegram-send library:
 # pip install telegram_send
+## Configure your bot's token:
 # telegram-send --configure
 
 # If pip is not installed:
